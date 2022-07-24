@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 40rem;
-  margin: 2rem 2vw;
+  margin: 2rem auto;
 }
 
 .form label {
@@ -45,13 +45,9 @@
 @media only screen and (max-width: 769px) {
   .form {
     width: 100%;
+    margin: 0vw 40px 0wv 40px;
   }
   .form button {
     width: 100%;
-  }
-  .form label {
-    /* width: 100%;
-    padding: 0;
-    margin: 0; */
   }
 }
