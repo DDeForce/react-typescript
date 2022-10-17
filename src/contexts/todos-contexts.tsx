@@ -35,6 +35,7 @@ const TodoContextProvider = (props: { children: ReactNode }) => {
     addTodo: addTodoHandler,
     removeTodo: removeTodoHandler,
   };
+
   return (
     <TodosContext.Provider value={contextValue}>
       {props.children}
